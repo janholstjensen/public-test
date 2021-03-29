@@ -1,5 +1,5 @@
 # RDKit for Excel
-A simple Excel add-in that gives access to RDKit functions.
+A simple Excel add-in that gives access to RDKit functions. OK - we now have more cowbell.
 
 ## Prerequisites when using standard Python 2.7
 * Python 2.7 from python.org
