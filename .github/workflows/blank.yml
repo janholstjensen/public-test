@@ -27,6 +27,11 @@ jobs:
         with:
           path: main-repos
 
+      - uses: actions/checkout@v4
+        with:
+          repository: IUPAC-InChI/InChI
+          path: InChI
+
       # Runs a single command using the runners shell
       - name: List repository files.
         run: pwd; cd main-repos; ls -l; echo Hello, world!
